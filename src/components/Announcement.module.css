@@ -1,0 +1,129 @@
+/* .AnnouncementList {
+    position: relative;
+} */
+
+.AnnouncementList button {
+    color: red;
+    background-color: rgb(99, 247, 247);
+    border: 1px solid rgb(21, 144, 144);
+    border-radius: 10px;
+    height: 25px;
+    font-weight: bolder;
+}
+
+.AnnouncementList button:hover {
+    background-color: rgb(44, 196, 196);
+}
+
+.AnnouncementList input {
+    border: 1px solid rgb(21, 144, 144);
+    border-radius: 10px;
+    height: 22px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header span {
+    color: red;
+}
+
+.header p {
+    color: rgb(21, 144, 144);
+}
+
+.header button:first-child {
+    width: 250px;
+}
+
+.header div input {
+    width: 140px;
+}
+
+.header div button {
+    width: 55px;
+}
+
+.addingBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 245, 245);
+    margin: auto;
+    width: 30%;
+}
+
+.addingBlock * {
+    margin: 5px auto 5px;
+}
+
+.mainContent {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mainContent div{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 245, 245);
+    padding: 10px;
+}
+
+.mainContent div * {
+    margin: 5px auto;
+}
+
+.mainContent div div {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainContent div div * {
+    margin: auto 2px;
+}
+
+.footer *{
+    display: flex;
+    justify-content: center;
+}
+
+.modalWindow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(215, 245, 245, 0.5);
+}
+
+.modalWindowContent {
+    position: relative;
+    width: 30%;
+    left: 35%;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(215, 245, 245);
+    border: 1px solid rgb(16, 149, 149);
+}
+
+.modalWindowContent button {
+    margin: 10px auto;
+}
+
+.validator {
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+}
