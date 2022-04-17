@@ -34,7 +34,7 @@ const AnnouncementListContainer = props => {
         isAdding ? setIsAdding(false) : setIsAdding(true);
         month < 9 ? month = `0${month+1}` : month = month + 1;
         hour < 10 ? hour = `0${hour}` : hour = hour;
-        month < 10 ? minutes = `0${minutes}` : minutes = minutes;
+        minutes < 10 ? minutes = `0${minutes}` : minutes = minutes;
 
         const id = props.announcementList[props.announcementList.length-1].id + 1;
         const date = `${hour}:${minutes}, ${day}.${month}.${year}`;
